@@ -126,3 +126,5 @@ abstract class Phone {
     }
     public abstract void boot();
 }
+
+2、简单工程模式

@@ -1,0 +1,29 @@
+the binary and bitwise operation #二进制和位运算
+
+##the bitwise operation is a efficient for low-level computation##
+
+#first part --- the binary
+1、unsigned binary 
+The range of an n-bit unsigned binary number is from 0 to (2^n - 1).
+2、 signed binary
+Signed binary numbers include negative values.
+the first binary bit is used to represent the sign --- (1=negative)
+the range of an n-bit signed binary number has two ranges;
+
+To get the negative value, subtract one from the postive number and the perform bitwise NOT;
+To get the positive value, invert all bits and add one;
+
+the temple :
+For a 4-bits binary number,the range of the negative values is from -8 to -1 and the range of the non-negative values is from 0 to 7;
+
+the show method of java is printBinary(the target number)
+
+###the smallest negative value can't be converted to a positive value.###
+
+#the second part --- bitwise opretion
+|
+&
+~
+^
+>>
+<<
